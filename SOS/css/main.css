@@ -1,0 +1,131 @@
+body {
+  font-family: "Muli", sans-serif;
+}
+
+.nav-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  color: #041122;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.navigation {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.navigation-link {
+  color: #52575d;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.navigation-link:hover,
+.navigation-link:active,
+.navigation-link:focus {
+  color: #f72464;
+  text-decoration: none;
+}
+
+.cart {
+  padding-top: 5px;
+  color: #52575d;
+}
+
+.header {
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.header-bg {
+  position: absolute;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  left: 45%;
+  top: 0;
+  overflow: hidden;
+  background-image: url(../img/nike1.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  z-index: -1;
+}
+
+.header-content {
+  position: relative;
+  width: 750px;
+}
+
+.header .container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  color: #222;
+  font-size: 80px;
+  font-family: "Lora", serif;
+  line-height: 1.25;
+  margin-bottom: 25px;
+}
+
+.header-description {
+  color: #52575d;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.header-button {
+  background-color: #f72464;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Lora", serif;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 14px;
+  line-height: 1;
+  height: 50px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.3);
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.header-button:hover {
+  background-color: #da0f4d;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.5);
+}
+
+.title {
+  font-size: 35px;
+  color: #222;
+  font-family: "Lora", serif;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #919191;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
