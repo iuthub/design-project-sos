@@ -53,7 +53,7 @@ body {
   left: 45%;
   top: 0;
   overflow: hidden;
-  background-image: url(../img/nike.jpg);
+  background-image: url("../img/nike.jpg");
   background-repeat: no-repeat;
   background-position: left top;
   z-index: -1;
@@ -137,6 +137,7 @@ body {
 .card {
   font-family: "Lora", serif;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .card-image {
@@ -147,7 +148,7 @@ body {
   color: #222;
   font-size: 18px;
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .card-price {
@@ -160,4 +161,72 @@ body {
   color: #838b8f;
   text-decoration: line-through;
   margin-right: 5px;
+}
+
+.button-outline {
+  border-width: 1px;
+  border-color: rgb(247, 36, 100);
+  border-style: solid;
+  border-radius: 3px;
+  height: 38px;
+  font-size: 14px;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  color: rgb(145, 145, 145);
+  line-height: 1;
+  padding-top: 12px;
+  width: 220px;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.button-outline:hover {
+  border-color: rgb(247, 36, 100);
+  background-color: rgb(247, 36, 100);
+  color: #fff;
+}
+
+.adv-wrapper {
+  height: 185px;
+  width: 100%;
+  background-image: url("../img/advshoes.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.adv-title {
+  font-size: 50px;
+  font-family: "Lora", serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.content-center {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.adv-button {
+  border-radius: 3px;
+  background-color: rgb(247, 36, 100);
+  box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.25);
+  height: 60px;
+  line-height: 1;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Lora", serif;
+  padding: 15px 60px;
+  text-decoration: none;
+}
+
+.adv-button:hover {
+  color: #fff;
+  text-decoration: none;
 }
