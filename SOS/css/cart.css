@@ -1,0 +1,15 @@
+.table{
+	border: solid 1px grey;
+}
+.table-header {
+	color: white;
+	background-color: black;
+}
+.table-img{
+	height: 100%;
+	width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+
+}
