@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/quickview.css">
+    <link rel="stylesheet" href="css/quickview.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Lora:400,700|Muli:300,400,600,700,800"
       rel="stylesheet"
@@ -33,62 +33,37 @@
     ></script>
   </head>
   <body>
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-toggle="modal"
-      data-target=".bd-example-modal-xl"
-    >
-      Extra large modal
-    </button>
-      <div
-        class="modal fade bd-example-modal-xl"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="myExtraLargeModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-xl">     
-          <div class="modal-content">
-            <div class="row">
-              <div class="col-sm-6 centerblock">
-                <img src="img/product1.jpg" alt=""  />
-              </div>
-              <div class="col-sm-6 description">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                    <br>
-                <div class="heading">Nike Air VaporMax Flyknit 3</div>
-                <div class="price">190.00$</div>
-                <form action="">
-                <select name="" id="" class="quantity">
-                    <option value="" selected disabled>Select size</option>
-                    <option value="">6</option>
-                    <option value="">7</option>
-                    <option value="">8</option>
-                    <option value="">9</option>
-                    <option value="">10</option>
-                    <option value="">11</option>
-                    <option value="">12</option>
-                  </select>
-                  <br>
-                  <select name="" id="" class="quantity">
-                    <option value="" selected disabled>Select quantity</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                  </select>
-                  <br>
-                  <button href="#" class="addtocard">Add to card</button>
-                </form>
-              </div>
-            </div>
-          </div>
-         </div>
-        </div>
+    <div class="row">
+      <div class="col-sm-5 centerblock">
+        <img src="img/product1.jpg" alt="" />
       </div>
+      <div class="col-sm-7 description">
+        <div class="heading">Nike Air VaporMax Flyknit 3</div>
+        <div class="price">190.00$</div>
+        <form action="">
+          <select name="" id="" class="quantity">
+            <option value="" selected disabled>Select size</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+          </select>
+          <br />
+          <select name="" id="" class="quantity">
+            <option value="" selected disabled>Select quantity</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+          </select>
+          <br />
+          <button href="#" class="addtocard">Add to card</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
