@@ -7,6 +7,7 @@
 	<title>Checkout</title>
 	<link rel="icon" href="img/icon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
 	<link rel="stylesheet" type="text/css" href="css/pay-form.css">
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css" />
@@ -24,12 +25,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-	<div class="container" style="border: black 1px solid">
+	<div class="container">
 		<div class="row">
 			<h1>Order</h1>
 		</div>
-		<div class="row justify-content-md-center" style="border: black 1px solid">
-			<div class="col-md-8">
+		<div class="row justify-content-md-center">
+			<div class="col-md-9">
 				<button class="accordion" id="acr1">
 					Choose a shipping address
 				</button>
@@ -108,6 +109,7 @@
 										<input type="number" class="form-control" aria-label="Expiary date" aria-describedby="inputGroup-sizing-sm" value="2019" min="1950" max="2019" step="1">
 									</div>
 								</div>
+							<input style="margin-bottom: 25px;" type="submit" value="Add your card" class="btn btn-dark btn-sm btn-block">
 							</form>
 						</div>
 						<div class="col-md-6" style="border-left: #999 1px solid">
@@ -120,10 +122,48 @@
 					Review items and shipping
 				</button>
 				<div class="panel">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nihil ex exercitationem adipisci quaerat officiis soluta, suscipit aliquam modi quasi architecto enim, assumenda quia natus necessitatibus reprehenderit atque quod saepe.</p>
+					<h5>Estimated delivery date Thursday, 9 May - Friday, 10 May</h5>
+					<div class="row">
+						<div class="col-md-5">
+							<img src="img/resized/product2.jpg" alt="Nike" class="table-img">
+						</div>
+						<div class="col-md-4">
+							<h5>Nike</h5>
+						</div>
+						<div class="col-md-3">
+							<h5 style="font-size: 24px; float: right;" class="card-price">$100</h5>
+						</div>
+					</div>
+					<div class="row" style="margin-top: 20px;">
+						<h5 class="card-price" style="font-size: 24px">Total order: $100</h5>
+						<input style="margin-bottom: 25px;" type="submit" value="Place your Order" class="btn btn-danger btn-lg btn-block">
+					</div>
 				</div>
-			<div class="col-md-4">
-				
+			</div>
+			<div class="col-md-3">
+				<div class="row">
+					<input style="margin-bottom: 25px;" type="submit" value="Place your Order" class="btn btn-danger btn-lg btn-block">
+				</div>
+				<div class="row">
+					<table>
+						<tr>
+							<td>Items</td>
+							<td>1</td>
+						</tr>
+						<tr>
+							<td>Shipping</td>
+							<td>$3</td>
+						</tr>
+						<tr>
+							<td>Free Shipping</td>
+							<td>Yes</td>
+						</tr>
+						<tr>
+							<th>Order total</th>
+							<th>$100</th>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
 	</div>

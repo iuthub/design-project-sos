@@ -49,3 +49,7 @@
 	border-radius: 5px;
 	transition: border-color .5s ease-out;
 }
+
+td{
+	padding-right: 81px;
+}
