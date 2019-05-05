@@ -25,6 +25,9 @@
 </head>
 <body>
 	<div class="container" style="border: black 1px solid">
+		<div class="row">
+			<h1>Order</h1>
+		</div>
 		<div class="row justify-content-md-center" style="border: black 1px solid">
 			<div class="col-md-8">
 				<button class="accordion" id="acr1">
@@ -68,12 +71,15 @@
 						</div>
 						<p style="margin-left: -16px;">Country</p>
 						<div class="row simple-form">
-							<select class="select" name="select">
+							<select style="float: left;" class="select" name="select">
 								<option selected>Uzbekistan</option>
 								<option value="1">Russia</option>
 								<option value="2">USA</option>
 								<option value="3">Neverland</option>
 							</select>
+							<div style="float: right;">
+								<input type="submit" value="Ship to this address" class="btn btn-dark btn-sm btn-block">
+							</div>
 						</div>
 					</form>
 				</div>
@@ -81,7 +87,34 @@
 					Select a payment
 				</button>
 				<div class="panel">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nihil ex exercitationem adipisci quaerat officiis soluta, suscipit aliquam modi quasi architecto enim, assumenda quia natus necessitatibus reprehenderit atque quod saepe.</p>
+					<h5>Add a debit or credit card</h5>
+					<div class="row">
+						<div class="col-md-6">
+							<form action="" method="post">
+								<div class="row simple-form">
+									<label for="Name on Card">Name on Card</label>
+									<input type="text" class="form-control" aria-label="Name on Card" aria-describedby="inputGroup-sizing-sm" placeholder="Name on Card">
+								</div>
+								<div class="row simple-form">
+									<label for="Card Number">Card Number</label>
+									<input type="text" class="form-control" aria-label="Card Number" aria-describedby="inputGroup-sizing-sm" placeholder="8888 **** **** ****">
+								</div>
+								<div class="row simple-form">
+									<label for="Card Number">Expiary date</label>
+									<div class="col-md-3">
+										<input type="number" class="form-control" aria-label="Expiary date" aria-describedby="inputGroup-sizing-sm" value="1" min="1" max="12" step="1">
+									</div>
+									<div class="col-md-4">
+										<input type="number" class="form-control" aria-label="Expiary date" aria-describedby="inputGroup-sizing-sm" value="2019" min="1950" max="2019" step="1">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-6" style="border-left: #999 1px solid">
+							<p>We accept all major credit and debit cards</p>
+							<img src="img/credit-card-icons.gif" alt="VISA, Master Card, American Express, Discover">
+						</div>
+					</div>
 				</div>
 				<button class="accordion" id="acr3">
 					Review items and shipping
