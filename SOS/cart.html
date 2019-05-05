@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/cart.css">
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css" />
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" />
 	<link
 		href="https://fonts.googleapis.com/css?family=Lora:400,700|Muli:300,400,600,700,800"
 		rel="stylesheet"
@@ -26,7 +27,7 @@
 		<div class="row">
 			<h1>My shopping cart</h1>
 		</div>
-		<div class="row">
+		<div class="row" style="margin-top: 50px;">
 			<div class="col-md-9 table justify-content-md-left">
 				<div class="row table-header">
 					<div class="col-md-7">
@@ -42,12 +43,11 @@
 				<!-- HERE LIST ALL ITEMS -->
 				<div class="row">
 					<div class="col-md-2">
-						<img src="img/product1.jpg" alt="product1" class="table-img">
+						<img src="img/resized/product2.jpg" alt="product1" class="table-img">
 					</div>
 					<div class="col-md-5">
 						<!-- HERE FETCH ITEM DETAIL FROM MODEL -->
-						<h3>Brand:</h3>
-						<h3>Nike</h3>
+						<h3>Brand: NIKE</h3>
 						<!-- USE HERE PHP AND DELETE THIS -->
 						<p><strong>Model:</strong> detail #2</p>
 						<p><strong>Size</strong> detail #3</p>
@@ -70,13 +70,16 @@
 						</table>
 					</div>
 					<div class="col-md-2">
-						<p>price</p>
+						<p style="padding-top: 5px; font-size: 24px" class="card-price">$100</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
-				<h2>Summary</h2>
-				<h2 style="float: right; color: red;">$100</h2>
+				<div class="row" style="padding-left: 10px;">
+					<h2>Summary</h2>
+					<h2 style="margin-left: 124px; font-size: 24px" class="card-price">$100</h2>
+				</div>
+				<a href="#" class="btn btn-danger btn-lg btn-block">Proceed to checkout</a>
 			</div>
 		</div>
 	</div>
